@@ -1,4 +1,6 @@
 [ignore]
+<PROJECT_ROOT>/.idea/.*
+<PROJECT_ROOT>/flow-typed/.*
 <PROJECT_ROOT>/node_modules/.*
 [include]
 

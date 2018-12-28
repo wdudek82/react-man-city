@@ -6,13 +6,20 @@ import mcitylogo from '../../resources/images/logos/manchester_city_logo.png';
 type Props = {
   link: boolean,
   linkTo: string,
+  width: string,
+  height: string,
 };
 
 const CityLogo = (props: Props) => {
   const template = (
-    <div>
-      <img src={mcitylogo} alt="Manchester City Logo" />
-    </div>
+    <div
+      className="img_cover"
+      style={{
+        width: props.width,
+        height: props.height,
+        background: `url(${mcitylogo}) no-repeat`,
+      }}
+    />
   );
 
   return props.link ? (

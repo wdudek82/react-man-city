@@ -17,10 +17,10 @@ const Header = () => {
         borderBottom: '2px solid #00285e',
       }}
     >
-      <Toolbar styles={{ display: 'flex' }}>
+      <Toolbar style={{ display: 'flex' }}>
         <div style={{ flexGrow: 1 }}>
           <div className="header_logo">
-            <CityLogo link={true} linkTo="" />
+            <CityLogo link={true} linkTo="/" width="70px" height="70px" />
           </div>
         </div>
 
@@ -30,7 +30,6 @@ const Header = () => {
         <Link to="/the_matches">
           <Button color="inherit">Matches</Button>
         </Link>
-
       </Toolbar>
     </AppBar>
   );
