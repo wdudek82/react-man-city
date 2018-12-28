@@ -46,9 +46,7 @@ class Stripes extends React.Component<{}, State> {
               opacity,
               transform: `rotate(${rotate}deg) translate(${left}px, ${top}px`,
             }}
-          >
-            faskslfj
-          </div>
+          />
         )}
       </Animate>
     ));
